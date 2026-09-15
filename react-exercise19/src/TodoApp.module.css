@@ -1,0 +1,44 @@
+.page {
+  min-height: 100vh;
+  background-color: #eeeeff;
+  padding-top: 15px;
+}
+
+nav {
+  background-color: white;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-bottom: 15px;
+}
+
+nav button {
+  background-color: #f0ddff;
+  color: #8b12d9;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 9px;
+  font-size: 16px;
+}
+
+nav span {
+  font-size: 16px;
+  color: #374151;
+}
+
+.container {
+  width: 450px;
+  margin: 30px auto;
+  padding: 30px 32px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px #ccc;
+}
+
+.container h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+}

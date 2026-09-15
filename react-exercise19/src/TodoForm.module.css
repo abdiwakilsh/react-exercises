@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.form input {
+  flex: 1;
+  padding: 11px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form button {
+  background-color: #9812e8;
+  color: white;
+  border: none;
+  padding: 0 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}

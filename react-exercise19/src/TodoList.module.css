@@ -1,0 +1,37 @@
+.list {
+  width: 100%;
+}
+
+.todo {
+  background-color: #f7f8fa;
+  padding: 17px 12px;
+  margin-bottom: 12px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.todo input {
+  width: 20px;
+  height: 20px;
+}
+
+.todo span {
+  font-size: 16px;
+  color: #374151;
+  flex: 1;
+}
+
+.todo button {
+  background: none;
+  border: none;
+  color: #dc1010;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #9ca3af !important;
+}
